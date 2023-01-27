@@ -19,5 +19,5 @@
         {{ out }}
   - fetch: 
       src: /tmp/out
-      dest: /tmp/out
+      dest: ./
       flat: yes
