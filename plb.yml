@@ -10,3 +10,6 @@
   - debug: 
       msg: "This is nono task"
     tags: nono
+  - shell: id
+    register: out
+  - debug: var=out
