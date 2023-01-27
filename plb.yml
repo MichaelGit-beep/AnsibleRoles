@@ -13,3 +13,11 @@
   - shell: id
     register: out
   - debug: var=out
+  - copy: 
+      dest: /tmp/out
+      content: |
+        {{ out }}
+  - fetch: 
+      src: /tmp/out
+      dest: ./
+      flat: yes

@@ -1,0 +1,18 @@
+{
+    "cmd": "id",
+    "stdout": "uid=0(root) gid=0(root) groups=0(root)",
+    "stderr": "",
+    "rc": 0,
+    "start": "2023-01-27 06:47:28.497298",
+    "end": "2023-01-27 06:47:28.500132",
+    "delta": "0:00:00.002834",
+    "changed": true,
+    "stdout_lines": [
+        "uid=0(root) gid=0(root) groups=0(root)"
+    ],
+    "stderr_lines": [],
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "failed": false
+}
