@@ -7,5 +7,6 @@
   tasks:
   - shell: id
     register: out
+    become: True
   - debug: 
       var: out
