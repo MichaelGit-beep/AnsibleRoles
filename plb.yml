@@ -4,3 +4,8 @@
   become: yes
   roles:
   - role: axonius
+  tasks:
+  - shell: id
+    register: out
+  - debug: 
+      var: out
