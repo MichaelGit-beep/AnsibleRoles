@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.77.101
+- hosts: 192.168.77.100
   gather_facts: no
   become: yes
   roles:
